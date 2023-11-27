@@ -1,0 +1,9 @@
+D:\Learn\DocCreation\FileDynamicCreation\BL.Interaface\bin\Debug\netcoreapp3.1\BL.Interaface.deps.json
+D:\Learn\DocCreation\FileDynamicCreation\BL.Interaface\bin\Debug\netcoreapp3.1\BL.Interaface.dll
+D:\Learn\DocCreation\FileDynamicCreation\BL.Interaface\bin\Debug\netcoreapp3.1\BL.Interaface.pdb
+D:\Learn\DocCreation\FileDynamicCreation\BL.Interaface\obj\Debug\netcoreapp3.1\BL.Interaface.csproj.AssemblyReference.cache
+D:\Learn\DocCreation\FileDynamicCreation\BL.Interaface\obj\Debug\netcoreapp3.1\BL.Interaface.AssemblyInfoInputs.cache
+D:\Learn\DocCreation\FileDynamicCreation\BL.Interaface\obj\Debug\netcoreapp3.1\BL.Interaface.AssemblyInfo.cs
+D:\Learn\DocCreation\FileDynamicCreation\BL.Interaface\obj\Debug\netcoreapp3.1\BL.Interaface.csproj.CoreCompileInputs.cache
+D:\Learn\DocCreation\FileDynamicCreation\BL.Interaface\obj\Debug\netcoreapp3.1\BL.Interaface.dll
+D:\Learn\DocCreation\FileDynamicCreation\BL.Interaface\obj\Debug\netcoreapp3.1\BL.Interaface.pdb

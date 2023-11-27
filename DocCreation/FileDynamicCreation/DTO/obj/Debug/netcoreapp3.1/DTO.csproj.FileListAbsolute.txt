@@ -1,0 +1,9 @@
+D:\Learn\DocCreation\FileDynamicCreation\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
+D:\Learn\DocCreation\FileDynamicCreation\DTO\bin\Debug\netcoreapp3.1\DTO.dll
+D:\Learn\DocCreation\FileDynamicCreation\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
+D:\Learn\DocCreation\FileDynamicCreation\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.AssemblyReference.cache
+D:\Learn\DocCreation\FileDynamicCreation\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+D:\Learn\DocCreation\FileDynamicCreation\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
+D:\Learn\DocCreation\FileDynamicCreation\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
+D:\Learn\DocCreation\FileDynamicCreation\DTO\obj\Debug\netcoreapp3.1\DTO.dll
+D:\Learn\DocCreation\FileDynamicCreation\DTO\obj\Debug\netcoreapp3.1\DTO.pdb

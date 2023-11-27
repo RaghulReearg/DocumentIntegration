@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yCX4gv/wY1/cEvbpyjV3TKYR3ZiiOw8Au1y2rZ5Y2/27zbM4msf2meY98GHNOBNTx5dN1UQIFTfqrmzgiNwdNw==",
+  "success": true,
+  "projectFilePath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\DTO\\DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Raghul\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
+    "C:\\Users\\Raghul\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

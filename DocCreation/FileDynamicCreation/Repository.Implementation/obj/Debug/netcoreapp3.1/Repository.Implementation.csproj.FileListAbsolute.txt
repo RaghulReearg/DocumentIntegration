@@ -1,0 +1,14 @@
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\bin\Debug\netcoreapp3.1\Repository.Implementation.deps.json
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\bin\Debug\netcoreapp3.1\Repository.Implementation.dll
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\bin\Debug\netcoreapp3.1\Repository.Implementation.pdb
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\bin\Debug\netcoreapp3.1\Repository.Interface.dll
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\bin\Debug\netcoreapp3.1\Repository.Interface.pdb
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\obj\Debug\netcoreapp3.1\Repository.Implementation.csproj.AssemblyReference.cache
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\obj\Debug\netcoreapp3.1\Repository.Implementation.AssemblyInfoInputs.cache
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\obj\Debug\netcoreapp3.1\Repository.Implementation.AssemblyInfo.cs
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\obj\Debug\netcoreapp3.1\Repository.Implementation.csproj.CoreCompileInputs.cache
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\obj\Debug\netcoreapp3.1\Repository.Implementation.csproj.CopyComplete
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\obj\Debug\netcoreapp3.1\Repository.Implementation.dll
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\obj\Debug\netcoreapp3.1\Repository.Implementation.pdb
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\bin\Debug\netcoreapp3.1\DTO.dll
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Implementation\bin\Debug\netcoreapp3.1\DTO.pdb

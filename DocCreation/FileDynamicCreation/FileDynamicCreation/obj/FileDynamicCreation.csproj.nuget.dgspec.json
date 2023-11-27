@@ -1,0 +1,432 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Learn\\DocCreation\\FileDynamicCreation\\FileDynamicCreation\\FileDynamicCreation.csproj": {}
+  },
+  "projects": {
+    "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Implementation\\BL.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Implementation\\BL.Implementation.csproj",
+        "projectName": "BL.Implementation",
+        "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Implementation\\BL.Implementation.csproj",
+        "packagesPath": "C:\\Users\\Raghul\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raghul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Interaface\\BL.Interaface.csproj": {
+                "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Interaface\\BL.Interaface.csproj"
+              },
+              "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Interface\\Repository.Interface.csproj": {
+                "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Interface\\Repository.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Interaface\\BL.Interaface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Interaface\\BL.Interaface.csproj",
+        "projectName": "BL.Interaface",
+        "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Interaface\\BL.Interaface.csproj",
+        "packagesPath": "C:\\Users\\Raghul\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Interaface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raghul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learn\\DocCreation\\FileDynamicCreation\\DTO\\DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learn\\DocCreation\\FileDynamicCreation\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\Raghul\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raghul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learn\\DocCreation\\FileDynamicCreation\\FileDynamicCreation\\FileDynamicCreation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learn\\DocCreation\\FileDynamicCreation\\FileDynamicCreation\\FileDynamicCreation.csproj",
+        "projectName": "FileDynamicCreation",
+        "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\FileDynamicCreation\\FileDynamicCreation.csproj",
+        "packagesPath": "C:\\Users\\Raghul\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\FileDynamicCreation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raghul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Implementation\\BL.Implementation.csproj": {
+                "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Implementation\\BL.Implementation.csproj"
+              },
+              "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Interaface\\BL.Interaface.csproj": {
+                "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\BL.Interaface\\BL.Interaface.csproj"
+              },
+              "D:\\Learn\\DocCreation\\FileDynamicCreation\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\DTO\\DTO.csproj"
+              },
+              "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Implementation\\Repository.Implementation.csproj": {
+                "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Implementation\\Repository.Implementation.csproj"
+              },
+              "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Interface\\Repository.Interface.csproj": {
+                "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Interface\\Repository.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Implementation\\Repository.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Implementation\\Repository.Implementation.csproj",
+        "projectName": "Repository.Implementation",
+        "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Implementation\\Repository.Implementation.csproj",
+        "packagesPath": "C:\\Users\\Raghul\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raghul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Interface\\Repository.Interface.csproj": {
+                "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Interface\\Repository.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.24, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Interface\\Repository.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Interface\\Repository.Interface.csproj",
+        "projectName": "Repository.Interface",
+        "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Interface\\Repository.Interface.csproj",
+        "packagesPath": "C:\\Users\\Raghul\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\Repository.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raghul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Learn\\DocCreation\\FileDynamicCreation\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Learn\\DocCreation\\FileDynamicCreation\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

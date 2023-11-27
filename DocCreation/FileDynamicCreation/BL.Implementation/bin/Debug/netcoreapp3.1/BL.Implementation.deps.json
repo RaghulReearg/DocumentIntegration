@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BL.Implementation/1.0.0": {
+        "dependencies": {
+          "BL.Interaface": "1.0.0",
+          "Dapper": "2.1.24",
+          "Repository.Interface": "1.0.0"
+        },
+        "runtime": {
+          "BL.Implementation.dll": {}
+        }
+      },
+      "Dapper/2.1.24": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.24.50284"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "BL.Interaface/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.24"
+        },
+        "runtime": {
+          "BL.Interaface.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.24"
+        },
+        "runtime": {
+          "DTO.dll": {}
+        }
+      },
+      "Repository.Interface/1.0.0": {
+        "dependencies": {
+          "DTO": "1.0.0",
+          "Dapper": "2.1.24"
+        },
+        "runtime": {
+          "Repository.Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BL.Implementation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/2.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/2t2vsdJyZRsk13AsWigZpsuFvEwK+o3v862cEULXoww905gyKhJFSuwmZI/4Ui9COX9ZCFCI09UHyH4wVYl3A==",
+      "path": "dapper/2.1.24",
+      "hashPath": "dapper.2.1.24.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "BL.Interaface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
