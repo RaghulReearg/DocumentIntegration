@@ -46,6 +46,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.1.24, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -122,6 +126,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
@@ -192,6 +200,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.1.24, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

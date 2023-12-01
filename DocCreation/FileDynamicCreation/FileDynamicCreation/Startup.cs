@@ -30,6 +30,7 @@ namespace FileDynamicCreation
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSwaggerGen();
             services.AddSingleton<DapperDBContext>();
             //service 
             services.AddScoped<IDocumentService, DocumentService>();
@@ -54,6 +55,11 @@ namespace FileDynamicCreation
 
             app.UseAuthorization();
 
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Test1 Api v1");
+            });
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

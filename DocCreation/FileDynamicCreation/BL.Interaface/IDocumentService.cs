@@ -5,7 +5,7 @@ namespace BL.Interaface
 {
     public interface IDocumentService
     {
-        public Task<object> GetAllValues();
+        public Task<object> CreatePDFDoc();
 
     }
 }

@@ -17,7 +17,7 @@ namespace Repository.Implementation
             this._unitOfWork=unitOfWork;
             this._dBContext = dBContext;
         }
-        public async Task<object> GetAllValues()
+        public async Task<object> CreatePDFDoc()
         {
             string query = "select * from TB_FILE_TYPE_MST";
             using(var connection = _dBContext.CreateConnection())
@@ -28,5 +28,6 @@ namespace Repository.Implementation
            
             // return null;
         }
+
     }
 }

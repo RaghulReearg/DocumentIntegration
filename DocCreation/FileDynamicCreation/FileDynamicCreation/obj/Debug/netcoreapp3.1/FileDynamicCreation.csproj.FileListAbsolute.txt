@@ -42,3 +42,15 @@ D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\obj\Debug\netcoreap
 D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\obj\Debug\netcoreapp3.1\FileDynamicCreation.dll
 D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\obj\Debug\netcoreapp3.1\FileDynamicCreation.pdb
 D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\obj\Debug\netcoreapp3.1\FileDynamicCreation.genruntimeconfig.cache
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\PdfSharpCore.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\ICSharpCode.SharpZipLib.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\SixLabors.Fonts.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\de\PdfSharpCore.resources.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\HtmlRenderer.Core.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\HtmlRenderer.PdfSharp.Core.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\obj\Debug\netcoreapp3.1\FileDynamicCreation.MvcApplicationPartsAssemblyInfo.cs

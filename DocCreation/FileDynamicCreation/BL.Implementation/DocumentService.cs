@@ -12,9 +12,9 @@ namespace BL.Implementation
         {
             this._IdocumentRepository = IdocumentRepository;
         }
-        public Task<object> GetAllValues()
+        public Task<object> CreatePDFDoc()
         {
-            return this._IdocumentRepository.GetAllValues();
+            return this._IdocumentRepository.CreatePDFDoc();
         }
     }
 }

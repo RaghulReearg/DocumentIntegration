@@ -7,6 +7,6 @@ namespace Repository.Interface
 {
     public interface IDocumentRepository
     {
-        public Task<object> GetAllValues();
+        public Task<object> CreatePDFDoc();
     }
 }
