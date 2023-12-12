@@ -16,17 +16,23 @@ namespace DTO
 
 	}
 	public class DocumentContent
-    {
+	{
 		public string HeaderLabel { get; set; }
-        public string HeaderValue { get; set; }
-        public string ContentLabel { get; set; }
-        public string ContentValue { get; set; }
-        public string FooterLabel { get; set; }
+		public string HeaderValue { get; set; }
 
-        public string FooterValue { get; set; }
+
+		public string FooterLabel { get; set; }
+
+		public string FooterValue { get; set; }
+		public List<Content> ContentFields {get;set;}
 
 
 
     }
+	public class Content
+    {
+		public string ContentPlaceholder { get; set; }
+		public string ContentValue { get; set; }
+	}
 
 }

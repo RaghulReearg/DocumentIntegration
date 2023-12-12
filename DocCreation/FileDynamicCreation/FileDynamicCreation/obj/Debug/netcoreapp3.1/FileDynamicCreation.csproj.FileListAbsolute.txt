@@ -54,3 +54,7 @@ D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreap
 D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\obj\Debug\netcoreapp3.1\FileDynamicCreation.MvcApplicationPartsAssemblyInfo.cs
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\Syncfusion.Compression.Portable.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\Syncfusion.DocIO.Portable.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\Syncfusion.Licensing.dll
+D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\bin\Debug\netcoreapp3.1\Syncfusion.OfficeChart.Portable.dll

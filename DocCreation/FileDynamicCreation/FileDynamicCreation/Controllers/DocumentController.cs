@@ -7,6 +7,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using PdfSharpCore;
 using PdfSharpCore.Pdf;
+using Syncfusion.DocIO;
+using Syncfusion.DocIO.DLS;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -74,8 +76,8 @@ namespace FileDynamicCreation.Controllers
 
                 // Body
                 htmlContent += "<div style = 'text-align: left; margin-bottom: 20px;'>";
-                htmlContent += String.Format("<h2>  {0} </h2>", content.ContentLabel);
-                htmlContent += String.Format("<p>  {0} </p>", content.ContentValue);
+               // htmlContent += String.Format("<h2>  {0} </h2>", content.ContentLabel);
+               // htmlContent += String.Format("<p>  {0} </p>", content.ContentValue);
                 htmlContent += "</div>";
                 // footer 
                 htmlContent += "<div style = 'text-align: center; margin-bottom: 20px;'>";
@@ -83,7 +85,7 @@ namespace FileDynamicCreation.Controllers
                 htmlContent += String.Format("<p>  {0} </p>", content.FooterValue);
                 htmlContent += "</div>";
                 htmlContent += "</div>";
-                PdfGenerator.AddPdfPages(data, htmlContent, PageSize.A4);
+                PdfGenerator.AddPdfPages(data, htmlContent, PdfSharpCore.PageSize.A4);
                 byte[]? response = null;
                 using (MemoryStream ms = new MemoryStream())
                 {
@@ -100,6 +102,30 @@ namespace FileDynamicCreation.Controllers
                 return null;
             }
          }
+        [HttpPost]
+        public string readDocFile(DocumentContent contents)
+        {
 
-      }
+            using (FileStream inputFileStream = new FileStream(Path.GetFullPath(@"../../../sample.docx"), FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            {
+                //Load the file stream into a Word document.
+                using (WordDocument document = new WordDocument(inputFileStream, FormatType.Automatic))
+                {
+                    //Get the Word document text.
+                    string text = document.GetText();
+                    text = text.Remove(0, 182);
+                    text = text.Substring(0, text.Length - 182);
+
+                    foreach (var contentData in contents.ContentFields)
+                    {
+                        text = text.Replace(contentData.ContentPlaceholder, contentData.ContentValue);
+                    }
+                    //Display Word document's text content.
+                    Console.WriteLine(text);
+                    Console.ReadLine();
+                    return text;
+                }
+            }
+        }
+    }
 }

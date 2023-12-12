@@ -1,0 +1,40 @@
+{
+  "headerLabel": "string",
+  "headerValue": "string",
+  "footerLabel": "string",
+  "footerValue": "string",
+  "contentFields": [
+    {
+      "contentPlaceholder": "{{ PE_PlanEndrosement_Number }}",
+      "contentValue": "Demo Plan"
+    },
+	{
+      "contentPlaceholder": "{{ PE_PlanDescription }}",
+      "contentValue": "plan Description"
+    },
+	{
+      "contentPlaceholder": "{{ PE_NamePlan }}",
+      "contentValue": "Demo Name"
+    },
+	{
+      "contentPlaceholder": "{{ PE_City }}",
+      "contentValue": "London"
+    },
+	{
+      "contentPlaceholder": "{{ PE_State }}",
+      "contentValue": "UK"
+    },
+	{
+      "contentPlaceholder": "{{ PE_NamePlan }}",
+      "contentValue": "Name Plan"
+    },
+	{
+      "contentPlaceholder": "{{ CP_TimeZone }}",
+      "contentValue": "UTC"
+    },
+	{
+      "contentPlaceholder": "{{ PE_EffectiveDate }}",
+      "contentValue": "Effectivness"
+    }
+  ]
+}
