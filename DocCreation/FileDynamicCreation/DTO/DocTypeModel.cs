@@ -17,6 +17,7 @@ namespace DTO
 	}
 	public class DocumentContent
 	{
+		public string DocumentCode { get; set; }
 		public string HeaderLabel { get; set; }
 		public string HeaderValue { get; set; }
 

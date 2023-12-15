@@ -103,29 +103,89 @@ namespace FileDynamicCreation.Controllers
             }
          }
         [HttpPost]
-        public string readDocFile(DocumentContent contents)
+        public async Task<ActionResult> generateDocument(DocumentContent contents)
         {
-
-            using (FileStream inputFileStream = new FileStream(Path.GetFullPath(@"../../../sample.docx"), FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            try
             {
-                //Load the file stream into a Word document.
-                using (WordDocument document = new WordDocument(inputFileStream, FormatType.Automatic))
+                if (contents.DocumentCode != "")
                 {
-                    //Get the Word document text.
-                    string text = document.GetText();
-                    text = text.Remove(0, 182);
-                    text = text.Substring(0, text.Length - 182);
+                    //read file from Configuration if Document Code present
+                    string documentPath = this.Configuration.GetValue<string>(contents.DocumentCode);
+                  //  documentPath =  + documentPath 
 
-                    foreach (var contentData in contents.ContentFields)
+                    
+                    using (FileStream inputFileStream = new FileStream(Path.GetFullPath(documentPath), FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                     {
-                        text = text.Replace(contentData.ContentPlaceholder, contentData.ContentValue);
+                        if (inputFileStream != null)
+                        {
+                            if (contents.DocumentCode == "WORDDOC")
+                            {
+                                return await this.GenerateMSDoc( contents, inputFileStream);
+                            }
+                            else if (contents.DocumentCode == "PDFDOC")
+                            {
+
+                            }
+                        }
                     }
-                    //Display Word document's text content.
-                    Console.WriteLine(text);
-                    Console.ReadLine();
-                    return text;
+                    
                 }
+                else
+                {
+                    return null;
+                   // return "Please Provide the Docuemnt Code";
+                }
+                return null;
             }
+            catch(Exception e)
+            {
+                return null;
+               // return e.Message;
+            }
+        }
+
+        private async Task<ActionResult> GenerateMSDoc(DocumentContent contents, FileStream inputFileStream)
+        {
+            //Load the file stream into a Word document.
+            using (WordDocument document = new WordDocument(inputFileStream, FormatType.Automatic))
+            {
+                //Get the Word document text.
+                string text = document.GetText();
+                text = text.Remove(0, 182);
+                text = text.Substring(0, text.Length - 182);
+
+                foreach (var contentData in contents.ContentFields)
+                {
+                    text = text.Replace(contentData.ContentPlaceholder, contentData.ContentValue);
+                }
+                //Display Word document's text content.
+                //create word document
+                WordDocument documents = new WordDocument();
+                //Add a section & a paragraph in the empty document
+                documents.EnsureMinimal();
+                //Append text to the last paragraph of the document
+                documents.LastParagraph.AppendText(text);
+                //Save and close the Word document
+              //  MemoryStream stream = new MemoryStream();
+               
+                byte[]? response = null;
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    documents.Save(ms, FormatType.Docx);
+                    response = ms.ToArray();
+                }
+                string fileName = "sample" + ".docx";
+                return File(response, "application/vnd.openxmlformats-officedocument.wordprocessingml.document", fileName);
+               
+                //Console.WriteLine(text);
+                //Console.ReadLine();
+               // return text;
+            }
+        }
+
+        private string GeneratePDF()
+        {
+            return null;
         }
     }
 }
