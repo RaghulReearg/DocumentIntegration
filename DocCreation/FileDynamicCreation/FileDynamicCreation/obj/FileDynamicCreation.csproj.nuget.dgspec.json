@@ -267,10 +267,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.1.24, )"
-            },
             "IronPdf": {
               "target": "Package",
               "version": "[2023.12.6, )"
