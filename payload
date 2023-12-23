@@ -1,4 +1,5 @@
 {
+"documentCode": "WORDDOC",
   "headerLabel": "string",
   "headerValue": "string",
   "footerLabel": "string",
@@ -25,16 +26,26 @@
       "contentValue": "UK"
     },
 	{
-      "contentPlaceholder": "{{ PE_NamePlan }}",
-      "contentValue": "Name Plan"
-    },
-	{
       "contentPlaceholder": "{{ CP_TimeZone }}",
       "contentValue": "UTC"
     },
 	{
       "contentPlaceholder": "{{ PE_EffectiveDate }}",
       "contentValue": "Effectivness"
+    },
+	{
+      "contentPlaceholder": "{{ PE_GroupNumber }}",
+      "contentValue": "DOC123"
+    },
+	{
+      "contentPlaceholder": "{{ PE_EIN }}",
+      "contentValue": "EIN 001"
+    },
+    {
+      "contentPlaceholder": "{{ PE_PlanNumber }}",
+      "contentValue": "PE Plan Number"
     }
+
+
   ]
 }

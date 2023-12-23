@@ -1,0 +1,54 @@
+-----------------------------------------
+23-12-2023 10:47:52--->Reading File sampleOne.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 10:57:46--->Reading File sampleOne.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 10:59:03--->Reading File sampleOne.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 11:04:48--->Reading File sampleOne.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 13:31:05--->Reading File sampleOne.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 14:14:47--->Reading File Step1_PlanGroupDetails.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 14:50:34--->Reading File Step1_PlanGroupDetails.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 15:30:21--->Reading File Step1_PlanGroupDetails.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 15:31:12--->Reading File Step1_PlanGroupDetails.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 15:39:30--->Reading File Step1_PlanGroupDetails.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 16:12:46--->Reading File Step1_PlanGroupDetails.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 16:18:07--->Reading File Step1_PlanGroupDetails.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 16:19:10--->Reading File Step1_PlanGroupDetails.pdf  -> Code : PDFDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 16:23:11--->Reading File Step1_PlanGroupDetails.docx  -> Code : WORDDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 16:23:17--->Error Occured : The process cannot access the file 'D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\document\WORD\Step1_PlanGroupDetails.docx' because it is being used by another process.
+-----------------------------------------
+-----------------------------------------
+23-12-2023 16:23:39--->Reading File Step1_PlanGroupDetails.docx  -> Code : WORDDOC
+-----------------------------------------
+-----------------------------------------
+23-12-2023 16:23:42--->Error Occured : The process cannot access the file 'D:\Learn\DocCreation\FileDynamicCreation\FileDynamicCreation\document\WORD\Step1_PlanGroupDetails.docx' because it is being used by another process.
+-----------------------------------------
+-----------------------------------------
+23-12-2023 16:25:42--->Reading File Step1_PlanGroupDetails.docx  -> Code : WORDDOC
+-----------------------------------------
