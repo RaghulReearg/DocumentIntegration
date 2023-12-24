@@ -162,6 +162,9 @@ namespace FileDynamicCreation.Controllers
         private async Task<ActionResult> GenerateMSWordDoc(DocumentContent contents, FileStream inputFileStream,string filename,string documentPath)
         {
             try {
+                CommonFactory.WriteToFile("WORD Document Generation started " );
+                CommonFactory.WriteToFile("File Path " + documentPath);
+
                 //Load the file stream into a Word document.
                 using (WordDocument document = new WordDocument(inputFileStream, FormatType.Automatic))
                 {
@@ -182,6 +185,8 @@ namespace FileDynamicCreation.Controllers
                     }
 
                     //Create and save the document to a memory stream
+                    CommonFactory.WriteToFile(" WORD DOCUMENT Saving.... ");
+
                     var ms = new MemoryStream();
                     worddoc.SaveToStream(ms, Spire.Doc.FileFormat.Docx);
                     ms.Seek(0, SeekOrigin.Begin);
@@ -189,6 +194,7 @@ namespace FileDynamicCreation.Controllers
                     //You may want to make this MIME type string into a constant
                     var file = new FileStreamResult(ms, "application/vnd.openxmlformats-officedocument.wordprocessingml.document");
                     file.FileDownloadName = filename;
+                    CommonFactory.WriteToFile(" DOC saved successfully.... ");
 
                     return file;
 
@@ -234,7 +240,7 @@ namespace FileDynamicCreation.Controllers
             }
             catch(Exception e)
             {
-                CommonFactory.WriteToFile("Error Occured : " + e.Message);
+                CommonFactory.WriteToFile("Error Occured in WORD Creation: " + e.Message);
                 return null;
             }
         }
@@ -244,9 +250,14 @@ namespace FileDynamicCreation.Controllers
 
             try
             {
+                CommonFactory.WriteToFile("PDF Document Generation started ");
+                CommonFactory.WriteToFile("File Path " + documentPath);
 
                 Spire.Pdf.PdfDocument pdfdoc = new Spire.Pdf.PdfDocument();
                 pdfdoc.LoadFromFile(documentPath);
+
+                CommonFactory.WriteToFile("saving pdf to todoc document");
+               
                 pdfdoc.SaveToFile("Document\\PDFTOWORD\\todoc.docx", Spire.Pdf.FileFormat.DOCX);
                 Spire.Doc.Document worddoc = new Spire.Doc.Document();
 
@@ -282,6 +293,8 @@ namespace FileDynamicCreation.Controllers
 
 
                 //}
+                CommonFactory.WriteToFile("Saving to PDF.... ");
+                
                 var ms = new MemoryStream();
                 worddoc.SaveToStream(ms, Spire.Doc.FileFormat.PDF);
                 ms.Seek(0, SeekOrigin.Begin);
@@ -290,6 +303,8 @@ namespace FileDynamicCreation.Controllers
                 var file = new FileStreamResult(ms, "application/pdf");
                 file.FileDownloadName = filename;
 
+                CommonFactory.WriteToFile(" PDF saved successfully.... ");
+
                 return file;
                 
             }
@@ -297,6 +312,7 @@ namespace FileDynamicCreation.Controllers
 
             catch (Exception e)
             {
+                CommonFactory.WriteToFile("Error Occured in PDF Creation: " + e.Message);
                 return null;
             }
             return null;
