@@ -267,9 +267,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Dapper": {
+            "IronPdf": {
               "target": "Package",
-              "version": "[2.1.24, )"
+              "version": "[2023.12.6, )"
             },
             "PdfSharpCore": {
               "target": "Package",
@@ -279,9 +279,17 @@
               "target": "Package",
               "version": "[1.0.0, )"
             },
+            "Spire.Doc": {
+              "target": "Package",
+              "version": "[7.9.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "Syncfusion.DocIO.Net.Core": {
+              "target": "Package",
+              "version": "[23.2.6, )"
             }
           },
           "imports": [

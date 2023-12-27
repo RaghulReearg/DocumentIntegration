@@ -1,12 +1,12 @@
 D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\bin\Debug\netcoreapp3.1\Repository.Interface.deps.json
 D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\bin\Debug\netcoreapp3.1\Repository.Interface.dll
 D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\bin\Debug\netcoreapp3.1\Repository.Interface.pdb
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\bin\Debug\netcoreapp3.1\DTO.dll
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\bin\Debug\netcoreapp3.1\DTO.pdb
 D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\obj\Debug\netcoreapp3.1\Repository.Interface.csproj.AssemblyReference.cache
 D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\obj\Debug\netcoreapp3.1\Repository.Interface.AssemblyInfoInputs.cache
 D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\obj\Debug\netcoreapp3.1\Repository.Interface.AssemblyInfo.cs
 D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\obj\Debug\netcoreapp3.1\Repository.Interface.csproj.CoreCompileInputs.cache
+D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\obj\Debug\netcoreapp3.1\Repository.Interface.csproj.CopyComplete
 D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\obj\Debug\netcoreapp3.1\Repository.Interface.dll
 D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\obj\Debug\netcoreapp3.1\Repository.Interface.pdb
-D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\bin\Debug\netcoreapp3.1\DTO.dll
-D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\bin\Debug\netcoreapp3.1\DTO.pdb
-D:\Learn\DocCreation\FileDynamicCreation\Repository.Interface\obj\Debug\netcoreapp3.1\Repository.Interface.csproj.CopyComplete
