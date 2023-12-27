@@ -6,43 +6,43 @@
   "footerValue": "string",
   "contentFields": [
     {
-      "contentPlaceholder": "{{ PE_PlanEndrosement_Number }}",
+      "contentPlaceholder": "{{PE_PlanEndrosement_Number}}",
       "contentValue": "Demo Plan"
     },
 	{
-      "contentPlaceholder": "{{ PE_PlanDescription }}",
+      "contentPlaceholder": "{{PE_PlanDescription}}",
       "contentValue": "plan Description"
     },
 	{
-      "contentPlaceholder": "{{ PE_NamePlan }}",
+      "contentPlaceholder": "{{PE_NamePlan}}",
       "contentValue": "Demo Name"
     },
 	{
-      "contentPlaceholder": "{{ PE_City }}",
+      "contentPlaceholder": "{{PE_City}}",
       "contentValue": "London"
     },
 	{
-      "contentPlaceholder": "{{ PE_State }}",
+      "contentPlaceholder": "{{PE_State}}",
       "contentValue": "UK"
     },
 	{
-      "contentPlaceholder": "{{ CP_TimeZone }}",
+      "contentPlaceholder": "{{CP_TimeZone}}",
       "contentValue": "UTC"
     },
 	{
-      "contentPlaceholder": "{{ PE_EffectiveDate }}",
+      "contentPlaceholder": "{{PE_EffectiveDate}}",
       "contentValue": "Effectivness"
     },
 	{
-      "contentPlaceholder": "{{ PE_GroupNumber }}",
+      "contentPlaceholder": "{{PE_GroupNumber}}",
       "contentValue": "DOC123"
     },
 	{
-      "contentPlaceholder": "{{ PE_EIN }}",
+      "contentPlaceholder": "{{PE_EIN}}",
       "contentValue": "EIN 001"
     },
     {
-      "contentPlaceholder": "{{ PE_PlanNumber }}",
+      "contentPlaceholder": "{{PE_PlanNumber}}",
       "contentValue": "PE Plan Number"
     }
 
